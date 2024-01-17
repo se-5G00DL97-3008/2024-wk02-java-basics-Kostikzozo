@@ -1,14 +1,15 @@
 import java.util.Scanner;
 
-public class E03 {
+public class E06 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("which multiplication table to show? ");
-        int number = input.nextInt();
+        System.out.println("Which multiplication table to show?");
+        int table = scanner.nextInt();
 
-        for (int i = 0; i < 11; i++) {
-            System.out.println(i + " x " + number + " = " + (i * number));
+        for (int i = 0; i <= 10; i++) {
+            int result = i * table;
+            System.out.println(i + " x " + table + " = " + result);
         }
     }
 }
