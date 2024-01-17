@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class E03 {
@@ -9,11 +8,11 @@ public class E03 {
         int number = input.nextInt();
 
         if (number > 0) {
-            System.out.println("Number is positive");
+            System.out.println("Positive number");
         } else if (number < 0) {
-            System.out.println("number is negative");
+            System.out.println("Negative number");
         } else {
-            System.out.println("it is zero");
+            System.out.println("It is zero");
         }
     }
 }
