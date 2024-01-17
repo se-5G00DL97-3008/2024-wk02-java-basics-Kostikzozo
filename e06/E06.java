@@ -8,6 +8,7 @@ public class E03 {
         int number = input.nextInt();
 
         for (int i = 0; i < 11; i++) {
-            System.out.println((i + " x " + number + " = " + (i * number));
+            System.out.println(i + " x " + number + " = " + (i * number));
+        }
     }
 }
