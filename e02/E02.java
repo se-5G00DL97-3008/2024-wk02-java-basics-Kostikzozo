@@ -14,10 +14,9 @@ public class E02 {
         int product = num1 * num2;
         int difference = num1 - num2;
         int quotient = num1 / num2;
+        System.out.println();
 
-        // Print the results with exact formatting
-        System.out.println("Give a number:");
-        System.out.println("Give another number:");
+       
         System.out.println(num1 + " + " + num2 + " = " + sum);
         System.out.println(num1 + " - " + num2 + " = " + difference);
         System.out.println(num1 + " x " + num2 + " = " + product);
