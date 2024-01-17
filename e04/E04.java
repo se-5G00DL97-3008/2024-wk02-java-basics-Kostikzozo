@@ -9,6 +9,7 @@ class E04 {
         int month_n = input.nextInt();
         if ((day_n == 24) && (month_n == 12)){
             System.out.println("Merry Christmas!");
+        }
 
     }
 }
