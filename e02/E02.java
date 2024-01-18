@@ -7,7 +7,7 @@ public class E02 {
         System.out.println("Give a number:");
         int num1 = input.nextInt();
 
-        System.out.println("Give another number:");
+        System.out.println("Give a number:");
         int num2 = input.nextInt();
 
         int sum = num1 + num2;
