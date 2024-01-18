@@ -16,7 +16,6 @@ public class E02 {
         int quotient = num1 / num2;
         System.out.println();
 
-       
         System.out.println(num1 + " + " + num2 + " = " + sum);
         System.out.println(num1 + " - " + num2 + " = " + difference);
         System.out.println(num1 + " x " + num2 + " = " + product);
