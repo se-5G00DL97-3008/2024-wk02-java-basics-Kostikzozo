@@ -3,8 +3,9 @@ import java.util.Scanner;
 public class E05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a number between 1 and 7: ");
+        System.out.println("Enter a number:");
         int dayNumber = scanner.nextInt();
+
         String day;
         switch (dayNumber) {
             case 1:
@@ -29,9 +30,10 @@ public class E05 {
                 day = "Sunday";
                 break;
             default:
-                day = "Invalid day";
+                day = "Only 7 days in a week";
                 break;
         }
-        System.out.println("Day of the week: " + day);
+
+        System.out.println(day);
     }
 }
